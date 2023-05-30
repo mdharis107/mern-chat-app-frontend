@@ -11,7 +11,7 @@ const ChatPage = () => {
   const { user } = ChatState();
 
   return (
-    <div style={{ width: "100%", border: "2px solid red" }}>
+    <div style={{ width: "100%" }}>
       {user && <SideDrawer />}
       <Box
         color={"white"}

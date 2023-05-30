@@ -6,7 +6,6 @@ const UserListItem = ({ user, handleFunction }) => {
     <Box
       onClick={handleFunction}
       cursor={"pointer"}
-      //   border={"1px solid red"}
       display={"flex"}
       alignItems={"center"}
       bg={"blackAlpha.300"}
